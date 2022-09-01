@@ -52,7 +52,15 @@ header li{
 }
 
 header nav {
-    float: right;
+    position: relative;
+    left: 25%;
+    /* float: right; */
+}
+
+#banner{
+background-image: url("v880-kul-17.jpg");
+height: 100px;
+background-size: cover;
 }
 
 div img{
@@ -70,6 +78,15 @@ div ul{
     justify-content: space-around;
 }
 
+#images{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+
+}
+#images :first-child{
+    flex-basis: 100%;
+}
 section img{
     height: 150px;
 }
