@@ -1,4 +1,4 @@
-# Portfolio-challenge-2 live link:
+# Portfolio-challenge-2 live link:  https://marianellag1.github.io/Portfolio-challenge-2/
 
 
 # **Portfolio Challenge 2**
