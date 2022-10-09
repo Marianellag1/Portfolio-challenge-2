@@ -1,69 +1,40 @@
-*{
-    margin:0px;
+* {
+    /* margin:0px; */
+    box-sizing: border-box;
+}
+body {
+    margin:0;
 }
 
-body{    
-    position: relative;
-    font-family: sans-serif;
-    font-size: 16px;
-    background-color:  #bfbfbf;
-    color: #595b5f;
-}
- 
-h1{
-    margin: 25px
- 
+.header {
+    overflow: hidden;
+    padding: 20px 10px;
+    background-color: #44474cd4;
 }
 
-main{
-    padding: 0px;
-}
-
-li{
-    display: inline;
-    padding: 25px;
-    text-decoration: underline;
-    font-size: 17px;
+.header a {
+    float: left;
     color: white;
-}
- 
-header {
-align-items: center;
-background-color: #44474cd4;
-height: 75px;
-display: flex;
-/* line-height: 41px; */
-/* position: fixed;
-left: 0px;
-right: 0px;
-top: 0px;
-display: flex;
-align-items: center; */
-}
- 
-header h1{
-    background-color:#9f9c9c;
-    margin: 32px -7px;
-    padding: 2px 9px 2px 100px;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none; /* removes line under words when link is attached */
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
 }
 
-header li{
-    list-style-type: none;
+.header-right {
+    float: right;
 }
 
-header nav {
-    position: relative;
-    left: 25%;
-    /* float: right; */
+
+#banner {
+    background-image: url("v880-kul-17.jpg");
+    height: 100px;
+    background-size: cover;
 }
 
-#banner{
-background-image: url("v880-kul-17.jpg");
-height: 100px;
-background-size: cover;
-}
-
-div img{
+div img {
     /* width: 150px; */
     height: 150px;
     /* overflow: hidden;
@@ -72,40 +43,41 @@ div img{
     margin: 38px 20px 18px 20px; */
 }
 
-div ul{
+div ul {
     list-style-type: none;
     display: flex;
     justify-content: space-around;
 }
 
-#images{
-display: flex;
-flex-wrap: wrap;
-justify-content: space-around;
+#images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 
 }
-#images :first-child{
+
+#images :first-child {
     flex-basis: 100%;
 }
-section img{
+
+section img {
     height: 150px;
 }
 
 @media screen and (max-width: 992px) {
     header {
-      background: #14772b;
+        background: #14772b;
     }
-  }
-  
-  @media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 768px) {
     nav {
-      background-color: #bb8588;
+        background-color: #bb8588;
     }
-  }
-  
-  @media screen and (max-width: 576px) {
+}
+
+@media screen and (max-width: 576px) {
     .sample-img {
-      background-color: #8ac4ff;
+        background-color: #8ac4ff;
     }
-  }
-  
+}
