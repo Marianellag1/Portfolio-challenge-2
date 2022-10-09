@@ -1,3 +1,4 @@
+/*Within the body*/
 * {
     /* margin:0px; */
     box-sizing: border-box;
@@ -5,7 +6,7 @@
 body {
     margin:0;
 }
-
+/*header with nav bar*/
 .header {
     overflow: hidden;
     padding: 20px 10px;
@@ -22,17 +23,68 @@ body {
     line-height: 25px;
     border-radius: 4px;
 }
-
+/*extras for when user hovers, it'll show which is being hovered over*/
+.header a:hover {
+    background-color: lightblue;
+    color: black;
+}
+/*when user clicked */
+.header a.active {
+    background-color: aquamarine;
+    color: #000;
+}
 .header-right {
     float: right;
 }
 
+.title {
+    border-right: 5px;
+    min-height: 100%;
+    text-align: right;
+    padding-right: 40px;
+    min-width: 20%;
+    max-width: 20%;
+    
+}
 
-#banner {
+.about-me {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    padding-top: 30px;
+}
+
+.about-me p {
+    font-size: 20px;
+    padding: 0 30px;
+    line-height: 1.6;
+    width: 90%;
+}
+
+.work {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+.project-grid-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    height: 500px;
+
+}
+
+.first {
+
+    background-image: url('/assets/images/v880-kul-17.jpg');
+}
+
+/* #banner {
     background-image: url("v880-kul-17.jpg");
     height: 100px;
     background-size: cover;
-}
+} */
 
 div img {
     /* width: 150px; */
@@ -64,13 +116,15 @@ section img {
     height: 150px;
 }
 
-@media screen and (max-width: 992px) {
-    header {
-        background: #14772b;
+/* @media screen and (max-width: 500px) {
+    .header a {
+        float: none;
+        display: none;
+        text-align: left;
     }
-}
+} */
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
     nav {
         background-color: #bb8588;
     }
@@ -80,4 +134,8 @@ section img {
     .sample-img {
         background-color: #8ac4ff;
     }
-}
+} */
+
+/* .header-right {
+    float: none;
+} */
