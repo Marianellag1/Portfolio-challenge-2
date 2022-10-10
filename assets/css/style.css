@@ -75,9 +75,27 @@ body {
 
 }
 
-.first {
+/* .project, .first-image {
 
     background-image: url('/assets/images/v880-kul-17.jpg');
+} */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    margin-top: 30px;
+}
+
+
+.content-wrapper a {
+    float: left;
+    text-align: center;
+    padding: 35px;
+    text-decoration: none; /* removes line under words when link is attached */
+    font-size: 18px;
+    line-height: 10px;
+    border-radius: 4px;
 }
 
 /* #banner {
@@ -86,35 +104,8 @@ body {
     background-size: cover;
 } */
 
-div img {
-    /* width: 150px; */
-    height: 150px;
-    /* overflow: hidden;
-    border: 5px solid; */
-    /* padding: 44px 18px;
-    margin: 38px 20px 18px 20px; */
-}
 
-div ul {
-    list-style-type: none;
-    display: flex;
-    justify-content: space-around;
-}
 
-#images {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-
-}
-
-#images :first-child {
-    flex-basis: 100%;
-}
-
-section img {
-    height: 150px;
-}
 
 /* @media screen and (max-width: 500px) {
     .header a {
