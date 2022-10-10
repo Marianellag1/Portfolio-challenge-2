@@ -136,35 +136,23 @@ footer {
     border-radius: 4px;
 }
 
-/* #banner {
-    background-image: url("v880-kul-17.jpg");
-    height: 100px;
-    background-size: cover;
-} */
 
-
-
-
-/* @media screen and (max-width: 500px) {
+@media screen and (max-width: 900px) {
     .header a {
         float: none;
         display: none;
-        text-align: left;
+      text-align: left;
     }
-} */
+}
 
-/* @media screen and (max-width: 768px) {
-    nav {
+@media screen and (max-width: 868px) {
+    body {
         background-color: #bb8588;
     }
 }
 
 @media screen and (max-width: 576px) {
-    .sample-img {
-        background-color: #8ac4ff;
+   body{
+        background-color: #4086cb;
     }
-} */
-
-/* .header-right {
-    float: none;
-} */
+} 
