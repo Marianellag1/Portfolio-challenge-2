@@ -2,6 +2,8 @@
 * {
     /* margin:0px; */
     box-sizing: border-box;
+    font-family: 'Inter Tight', sans-serif;
+    color: #000;
 }
 body {
     margin:0;
@@ -11,11 +13,12 @@ body {
     overflow: hidden;
     padding: 20px 10px;
     background-color: #44474cd4;
+    color: #000;
 }
 
 .header a {
     float: left;
-    color: white;
+    color: black;
     text-align: center;
     padding: 12px;
     text-decoration: none; /* removes line under words when link is attached */
@@ -37,13 +40,21 @@ body {
     float: right;
 }
 
+
+.name {
+    background: white;
+    font-size: xx-large;
+    font-weight: 600;
+}
+
 .title {
     border-right: 5px;
     min-height: 100%;
     text-align: right;
-    padding-right: 40px;
+    padding-right: 22px;
     min-width: 20%;
     max-width: 20%;
+    border-right: solid;
     
 }
 
@@ -75,10 +86,37 @@ body {
 
 }
 
-/* .project, .first-image {
+.project-grid a {
+    display: block;
+}
 
-    background-image: url('/assets/images/v880-kul-17.jpg');
-} */
+.project {
+    border: solid;
+    color:#626469;
+    /* display: flex; */
+    justify-content: flex-end;
+    text-decoration: none;
+    /* background-size: cover; */
+    background-position: center;
+    opacity: 0.75;
+    display: inline-flex;
+}
+
+.project:hover {
+    opacity: 1.0;
+}
+
+.module {
+    /* background-color: lightcoral; */
+    color: whitesmoke;
+    padding: 5px;
+    position: absolute;
+    opacity: .75;
+    background-color: #626469;
+    line-height: 2px;
+}
+
+
 
 footer {
     display: flex;

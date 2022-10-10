@@ -6,13 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Marianella's Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@200&display=swap" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@100&display=swap" rel="stylesheet"> -->
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
     <header>
         <div class="header">
-            <a href="#default">Marianella Gamboa</a>
+            <a href="http://github.com/Marianellag1" class="name">Marianella Gamboa</a>
             <div class="header-right">
                 <a href="#about-me" title="About Me">About Me</a>
                 <a href="#work" title="Work">Work</a>
@@ -23,13 +25,15 @@
     </header>
 
     <main>
-        <div id="banner" style="text-align: center;">
-            <!-- <img width=900 src="./assets/images/v880-kul-17.jpg" alt="Porfolio header photo"> -->
+        <div id="banner" style="text-align: center;" class="profile">
+            <img  class="img1" style="width:100%;height:265px;" src="./assets/images/v880-kul-17.jpg" alt="Porfolio header photo">
+            <!-- <img  class="img2" src="./assets/images/AvatarMaker.png" alt="Profile Picture"> -->
         </div>
 
         <section class="about-me" id="about-me">
-            <div class="title">
+            <div class="title" >
                 <h1>About Me</h1>
+                <img src="assets/images/AvatarMaker.png" alt="avatar" style="width:200px;height:200px;">
             </div>
 
             <div class="about-me">
@@ -44,41 +48,50 @@
 
             </div>
         </section>
-
         <section class="work" id="work">
-            <div class="title">
+            <div class="title flex-container">
                 <h1>Work</h1>
             </div class="projects-grid-wrapper">
-            <div class="projects-grid">
+            <div class="projects-grid" style="padding-left:25px;">
                 <a href="https://via.placeholder.com/150" target="_blank" class="project first"><img
                         src="assets/images/HKR4YOa-information-technology-wallpapers.jpg" alt="wallpaper"
-                        style="width:42px;height:42px;">
-                    <h1>Surf Report</h1>
-                    <h2>MERN Stack</h2>
+                        style="width:958px;height:380px;">
+                        <div class="module">
+                            <h3>Surf Report</h3>
+                            <p>MERN Stack</p>
+                        </div>
                 </a>
                 <a href="https://via.placeholder.com/150" target="_blank" class="project second"><img
                         src="assets/images/aerial-shot-u-s-bank-tower-los-angeles.jpg" alt="wallpaper"
-                        style="width:42px;height:42px;">
-                    <h1>LED Wall</h1>
-                    <h2>Node/loT</h2>
+                        style="width:475px;height:200px;">
+                        <div class="module">
+                            <h3>LED Wall</h3>
+                            <p>Node/loT</p>
+                        </div>
                 </a>
                 <a href="https://via.placeholder.com/150" target="_blank" class="project third"><img
                         src="assets/images/beautiful-shot-small-lake-with-wooden-rowboat-focus-amazing-clouds-sky.jpg"
-                        alt="wallpaper" style="width:42px;height:42px;">
-                    <h1>Calculator</h1>
-                    <h2>React/JavaScript/CSS</h2>
+                        alt="wallpaper" style="width:475px;height:200px;">
+                   <div class="module">
+                       <h3>Calculator</h3>
+                       <p>React/JavaScript/CSS</p>
+                    </div>
                 </a>
                 <a href="https://via.placeholder.com/150" target="_blank" class="project fourth"><img
                         src="assets/images/motion-speed-effect-with-city-night.jpg" alt="wallpaper"
-                        style="width:42px;height:42px;">
-                    <h1>Pastel Puzzels</h1>
-                    <h2>MERN Stack</h2>
+                        style="width:475px;height:200px;">
+                        <div class="module">
+                            <h3>Pastel Puzzels</h3>
+                            <p>MERN Stack</p>
+                        </div>
                 </a>
                 <a href="https://via.placeholder.com/150" target="_blank" class="project fifth"><img
                         src="assets/images/pexels-antonio-batinić-4164418.jpg" alt="wallpaper"
-                        style="width:42px;height:42px;">
-                    <h1>Run Buddy</h1>
-                    <h2>HTML/CSS</h2>
+                        style="width:475px;height:200px;">
+                        <div class="module">
+                            <h3>Run Buddy</h3>
+                            <p>HTML/CSS</p>
+                        </div>
                 </a>
             </div>
 
