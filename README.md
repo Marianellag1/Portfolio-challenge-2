@@ -19,6 +19,7 @@
 
 
 ---
+![_C__Users_maria_OneDrive_Desktop_bootcamp-challenges_Portfolio-challenge-2_index html (1)](https://user-images.githubusercontent.com/110939445/194963058-618ea189-8b3b-42f4-9946-fa9ad9efb3cc.png)
 
 ## **Description of the Project**
 This portfolio can be viewed by anyone. It contains projects that I have created, as well as activities that I am very proud of and want to show off to future employers.
@@ -41,7 +42,7 @@ As this is more of a personal project, any advice to make it more user-friendly 
 
 
 ## **Test Instructions**
-A live link will be provided at the top of the  README and user can simply click, and will be sent to the live portfolio.
+A live link will be provided at the top of the  README and user can simply click, and will be sent to the live portfolio. The majority of the page has a link. When hovered over navbar menu, a 'title' will show indicating the user what they will be clicking. Links in work, which in the future will contain actual projects, take the user to a new page/tab, allowing the user to still continue to keep the original profile. Email and Github accounts, when clicked, will send user to those pages. 
 
 
 
